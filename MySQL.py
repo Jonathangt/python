@@ -1,5 +1,5 @@
 import pymysql
-#pip install PyMySQL
+#pip install PyMySQLgit 
 class DataBase:
     def __init__(self):
         self.connection = pymysql.connect(
